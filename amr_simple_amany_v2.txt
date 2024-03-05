@@ -103,15 +103,6 @@
             :weekday ( m / minggu )))
 
 # ::id 5
-( p / pergi-01
-      :ARG0 ( k / keluarga
-            :poss ( k2 / kami ))
-      :purpose ( t / tamasya-01
-            :ARG0 k )
-      :time ( e / entitas-tanggal
-            :weekday ( m / minggu )))
-
-# ::id 5
 # ::snt Pada hari Minggu, kami sekeluarga pergi tamasya
 ( p / pergi-01
       :ARG0 ( k / keluarga
@@ -13505,7 +13496,12 @@
 
 # ::id 549
 # ::snt Dari Jogyakarta, dia datang 
-Yogyakarta
+( d / datang-01
+      :ARG0 ( d2 / dia )
+      :source ( k / kota
+            :wiki "Yogyakarta"
+            :name ( n / nama
+                  :op1 "Jogyakarta" )))
 
 # ::id 550
 # ::snt Andi berangkat berlatih karate
