@@ -1061,7 +1061,7 @@
             :wiki -
             :name ( n / nama
                   :op1 "Joko")
-            :ARG0-of ( m / memiliki-peran-org-91 
+            :ARG0-of ( m2 / memiliki-peran-org-91 
                   :ARG2 ( p / profesor )))
       :ARG1 ( b / bola ))
 
@@ -1072,7 +1072,7 @@
             :wiki -
             :name ( n / nama
                   :op1 "Joko")
-            :ARG0-of ( m / memiliki-peran-org-91 
+            :ARG0-of ( m2 / memiliki-peran-org-91 
                   :ARG2 ( p / profesor )))
       :ARG1 ( b / bola ))
 
@@ -1083,7 +1083,7 @@
             :wiki -
             :name ( n / nama
                   :op1 "Joko")
-            :ARG0-of ( m / memiliki-peran-org-91 
+            :ARG0-of ( m2 / memiliki-peran-org-91 
                   :ARG2 ( p / profesor )))
       :ARG1 ( b / bola ))
 
@@ -1094,7 +1094,7 @@
             :wiki -
             :name ( n / nama
                   :op1 "Joko")
-            :ARG0-of ( m / memiliki-peran-org-91 
+            :ARG0-of ( m2 / memiliki-peran-org-91 
                   :ARG2 ( p / profesor )))
       :ARG1 ( b / bola ))
 
@@ -1105,7 +1105,7 @@
             :wiki -
             :name ( n / nama
                   :op1 "Joko")
-            :ARG0-of ( m / memiliki-peran-org-91 
+            :ARG0-of ( m2 / memiliki-peran-org-91 
                   :ARG2 ( p / profesor )))
       :ARG1 ( b / bola ))
 
@@ -15286,49 +15286,39 @@
 # ::id 595
 # ::snt Pameran dirgantara diresmikan pekan depan
 ( r / resmi-01
-      :ARG1 ( p / pameran
-            :wiki "Pameran_kedirgantaraan"
-            :name ( n / nama
-                  :op1 "dirgantara" ))
+      :ARG1 ( p / pamer-01
+            :ARG1 ( d / dirgantara ))
       :time ( p2 / pekan
             :mod ( b / berikut )))
 
 # ::id 595
 # ::snt Pameran dirgantara diresmikan pada pekan depan
 ( r / resmi-01
-      :ARG1 ( p / pameran
-            :wiki "Pameran_kedirgantaraan"
-            :name ( n / nama
-                  :op1 "dirgantara" ))
+      :ARG1 ( p / pamer-01
+            :ARG1 ( d / dirgantara ))
       :time ( p2 / pekan
             :mod ( b / berikut )))
 
 # ::id 595
 # ::snt Pekan depan, pameran dirgantara diresmikan
 ( r / resmi-01
-      :ARG1 ( p / pameran
-            :wiki "Pameran_kedirgantaraan"
-            :name ( n / nama
-                  :op1 "dirgantara" ))
+      :ARG1 ( p / pamer-01
+            :ARG1 ( d / dirgantara ))
       :time ( p2 / pekan
             :mod ( b / berikut )))
 # ::id 595
 # ::snt Pada pekan depan, diresmikan pameran dirgantara
 ( r / resmi-01
-      :ARG1 ( p / pameran
-            :wiki "Pameran_kedirgantaraan"
-            :name ( n / nama
-                  :op1 "dirgantara" ))
+      :ARG1 ( p / pamer-01
+            :ARG1 ( d / dirgantara ))
       :time ( p2 / pekan
             :mod ( b / berikut )))
 
 # ::id 595
 # ::snt Di pekan depan, diresmikan pameran dirgantara
 ( r / resmi-01
-      :ARG1 ( p / pameran
-            :wiki "Pameran_kedirgantaraan"
-            :name ( n / nama
-                  :op1 "dirgantara" ))
+      :ARG1 ( p / pamer-01
+            :ARG1 ( d / dirgantara ))
       :time ( p2 / pekan
             :mod ( b / berikut )))
 
@@ -23953,10 +23943,8 @@
                   :dayperiod ( s / sore
                         :mod ( i / ini ))))
       :op2 ( r / resmi-01
-            :ARG1 ( p / pameran
-                  :wiki "Pameran_kedirgantaraan"
-                  :name ( n / nama
-                        :op1 "dirgantara" ))
+            :ARG1 ( p / pamer-01
+                  :ARG1 ( d4 / dirgantara ))
             :time ( p2 / pekan
                   :mod ( b / berikut ))))
 
