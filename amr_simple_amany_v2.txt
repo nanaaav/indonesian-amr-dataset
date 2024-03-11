@@ -13852,46 +13852,46 @@
 # ::id 560
 # ::snt Musim hujan berlangsung sejak bulan Oktober
 ( l / langsung-01
-      :ARG0 ( h / hujan
-            :part-of ( m / musim ))
+      :ARG0 ( e / entitas-tanggal
+            :season ( h / hujan ))
       :time ( s / sejak
-            :op1 ( e / entitas-tanggal
+            :op1 ( e2 / entitas-tanggal
                   :month 10 )))
 
 # ::id 560
 # ::snt Musim hujan berlangsung dari bulan Oktober
 ( l / langsung-01
-      :ARG0 ( h / hujan
-            :part-of ( m / musim ))
+      :ARG0 ( e / entitas-tanggal
+            :season ( h / hujan ))
       :time ( s / sejak
-            :op1 ( e / entitas-tanggal
+            :op1 ( e2 / entitas-tanggal
                   :month 10 )))
 
 # ::id 560
 # ::snt Musim hujan yang berlangsung dari bulan Oktober
 ( l / langsung-01
-      :ARG0 ( h / hujan
-            :part-of ( m / musim ))
+      :ARG0 ( e / entitas-tanggal
+            :season ( h / hujan ))
       :time ( s / sejak
-            :op1 ( e / entitas-tanggal
+            :op1 ( e2 / entitas-tanggal
                   :month 10 )))
 
 # ::id 560
 # ::snt Sejak bulan Oktober, musim hujan berlangsung 
 ( l / langsung-01
-      :ARG0 ( h / hujan
-            :part-of ( m / musim ))
+      :ARG0 ( e / entitas-tanggal
+            :season ( h / hujan ))
       :time ( s / sejak
-            :op1 ( e / entitas-tanggal
+            :op1 ( e2 / entitas-tanggal
                   :month 10 )))
 
 # ::id 560
 # ::snt Dari bulan Oktober, musim hujan berlangsung 
 ( l / langsung-01
-      :ARG0 ( h / hujan
-            :part-of ( m / musim ))
+      :ARG0 ( e / entitas-tanggal
+            :season ( h / hujan ))
       :time ( s / sejak
-            :op1 ( e / entitas-tanggal
+            :op1 ( e2 / entitas-tanggal
                   :month 10 )))
 
 # ::id 561
@@ -14396,36 +14396,36 @@
 # ::snt Jamur tumbuh di musim hujan
 ( t / tumbuh-01
       :ARG0 ( j / jamur )
-      :time ( h / hujan
-            :part-of ( m / musim )))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 572
 # ::snt Jamur tumbuh pada musim hujan
 ( t / tumbuh-01
       :ARG0 ( j / jamur )
-      :time ( h / hujan
-            :part-of ( m / musim )))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 572
 # ::snt Pada musim hujan, jamur tumbuh
 ( t / tumbuh-01
       :ARG0 ( j / jamur )
-      :time ( h / hujan
-            :part-of ( m / musim )))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 572
 # ::snt Jamur tumbuh ketika musim hujan
 ( t / tumbuh-01
       :ARG0 ( j / jamur )
-      :time ( h / hujan
-            :part-of ( m / musim )))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 572
 # ::snt Ketika musim hujan, jamur tumbuh 
 ( t / tumbuh-01
       :ARG0 ( j / jamur )
-      :time ( h / hujan
-            :part-of ( m / musim )))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 573
 # ::snt Hal dibahas saat rapat nanti
@@ -15745,42 +15745,42 @@
 # ::id 605
 # ::snt Bencana banjir datang saat musim hujan
 ( d / datang-01
-      :ARG1 ( b / banjir
-            :part-of ( b / bencana ))
-      :time ( m / musim
-            :mod ( h / hujan )))
+      :ARG1 ( b / bencana
+            :mod ( b2 / banjir ))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 605
 # ::snt Saat musim hujan, bencana banjir datang 
 ( d / datang-01
-      :ARG1 ( b / banjir
-            :part-of ( b / bencana ))
-      :time ( m / musim
-            :mod ( h / hujan )))
+      :ARG1 ( b / bencana
+            :mod ( b2 / banjir ))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 605
 # ::snt Saat musim hujan, datang bencana banjir 
 ( d / datang-01
-      :ARG1 ( b / banjir
-            :part-of ( b / bencana ))
-      :time ( m / musim
-            :mod ( h / hujan )))
+      :ARG1 ( b / bencana
+            :mod ( b2 / banjir ))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 605
 # ::snt Ketika musim hujan, datang bencana banjir 
 ( d / datang-01
-      :ARG1 ( b / banjir
-            :part-of ( b / bencana ))
-      :time ( m / musim
-            :mod ( h / hujan )))
+      :ARG1 ( b / bencana
+            :mod ( b2 / banjir ))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 605
 # ::snt Di musim hujan, datang bencana banjir 
 ( d / datang-01
-      :ARG1 ( b / banjir
-            :part-of ( b / bencana ))
-      :time ( m / musim
-            :mod ( h / hujan )))
+      :ARG1 ( b / bencana
+            :mod ( b2 / banjir ))
+      :time ( e / entitas-tanggal
+            :season ( h / hujan )))
 
 # ::id 606
 # ::snt Kita berangkat setelah makan siang
@@ -15922,36 +15922,36 @@
 # ::snt Di musim kemarau sungai kering
 ( k / kering-01
       :ARG0 ( s / sungai )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 609
 # ::snt Sungai kering di musim kemarau
 ( k / kering-01
       :ARG0 ( s / sungai )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 609
 # ::snt Sungai kering pada musim kemarau
 ( k / kering-01
       :ARG0 ( s / sungai )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entittas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 609
 # ::snt Sungai kering ketika musim kemarau
 ( k / kering-01
       :ARG0 ( s / sungai )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 609
 # ::snt Sungai kering saat musim kemarau
 ( k / kering-01
       :ARG0 ( s / sungai )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 610
 # ::snt Hari pahlawan diperingati pada sepuluh November
@@ -17305,36 +17305,36 @@
 # ::snt Di musim kemarau terdapat sumur kering
 ( s / sumur
       :mod ( k / kering )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 639
 # ::snt Terdapat sumur kering di musim kemarau 
 ( s / sumur
       :mod ( k / kering )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 639
 # ::snt Terdapat sumur kering saat musim kemarau 
 ( s / sumur
       :mod ( k / kering )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 639
 # ::snt Terdapat sumur kering pada musim kemarau 
 ( s / sumur
       :mod ( k / kering )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 639
 # ::snt Terdapat sumur kering pada saat musim kemarau 
 ( s / sumur
       :mod ( k / kering )
-      :time ( m / musim
-            :mod ( k2 / kemarau )))
+      :time ( e / entitas-tanggal
+            :season ( k2 / kemarau )))
 
 # ::id 640
 # ::snt Hari pahlawan diperingati setiap tanggal sepuluh November
@@ -23657,10 +23657,10 @@
                         :dayperiod ( s2 / sore 
                               :mod ( k / kemarin )))))
       :op2 ( l / langsung-01
-            :ARG0 ( h2 / hujan
-                  :part-of ( m / musim ))
+            :ARG0 ( e2 / entitas-tanggal
+                  :season ( h2 / hujan ))
             :time ( s3 / sejak
-                  :op1 ( e2 / entitas-tanggal
+                  :op1 ( e3 / entitas-tanggal
                         :month 10 ))))
 
 # ::id 896
@@ -23763,8 +23763,8 @@
                   :weekday ( s3 / senin )))
       :op2 ( t / tumbuh-01
             :ARG0 ( j / jamur )
-            :time ( h / hujan
-                  :part-of ( m2 / musim ))))
+            :time ( e / entitas-tanggal
+                  :season ( h / hujan ))))
 
 # ::id 901
 # ::snt Hal dibahas saat rapat nanti dan Upacara detik proklamasi dimulai jam sepuluh pagi
@@ -24031,10 +24031,10 @@
                         :op1 "Bali" ))
             :time ( b / besok ))
       :op2 ( d2 / datang-01
-            :ARG1 ( b2 / banjir
-                  :part-of ( b3 / bencana ))
-            :time ( m / musim
-                  :mod ( h / hujan ))))
+            :ARG1 ( b2 / bencana
+                  :mod ( b3 / banjir ))
+            :time ( e / entitas-tanggal
+                  :season ( h / hujan ))))
 
 # ::id 916
 # ::snt Kita berangkat setelah makan siang dan Acara diskusi dimulai jam sembilan malam
@@ -24068,8 +24068,8 @@
                               :mod ( t / tidur )))))
       :op2 ( k / kering-01
             :ARG0 ( s2 / sungai )
-            :time ( m2 / musim
-                  :mod ( k2 / kemarau ))))
+            :time ( e3 / entitas-tanggal
+                  :season ( k2 / kemarau ))))
 
 # ::id 918
 # ::snt Hari pahlawan diperingati pada sepuluh November dan Tadi dia berjanji datang ke sini
@@ -24342,8 +24342,8 @@
 ( d / dan
       :op1 ( s / sumur
             :mod ( k / kering )
-            :time ( m / musim
-                  :mod ( k2 / kemarau )))
+            :time ( e / entitas-tanggal
+                  :season ( k2 / kemarau )))
       :op2 ( i / ingat-01
             :ARG1 ( h / hari
                   :wiki "Hari_Pahlawan_(Indonesia)"
@@ -28097,10 +28097,10 @@
                         :dayperiod ( s2 / sore 
                               :mod ( k / kemarin )))))
       :op2 ( l / langsung-01
-            :ARG0 ( h2 / hujan
-                  :part-of ( m / musim ))
+            :ARG0 ( e2 / entitas-tanggal
+                  :season ( h2 / hujan ))
             :time ( s3 / sejak
-                  :op1 ( e2 / entitas-tanggal
+                  :op1 ( e3 / entitas-tanggal
                         :month 10 ))))
 
 # ::id 1158
@@ -28203,8 +28203,8 @@
                   :weekday ( s3 / senin )))
       :op2 ( t / tumbuh-01
             :ARG0 ( j / jamur )
-            :time ( h / hujan
-                  :part-of ( m2 / musim ))))
+            :time ( e / entitas-tanggal
+                  :season ( h / hujan ))))
 
 # ::id 1163
 # ::snt Hal dibahas saat rapat nanti atau Upacara detik proklamasi dimulai jam sepuluh pagi
@@ -28472,10 +28472,10 @@
                         :op1 "Bali" ))
             :time ( b / besok ))
       :op2 ( d / datang-01
-            :ARG1 ( b2 / banjir
-                  :part-of ( b3 / bencana ))
-            :time ( m / musim
-                  :mod ( h / hujan ))))
+            :ARG1 ( b2 / bencana
+                  :mod ( b3 / banjir ))
+            :time ( e / entitas-tanggal
+                  :season ( h / hujan ))))
 
 # ::id 1178
 # ::snt Kita berangkat setelah makan siang atau Acara diskusi dimulai jam sembilan malam
@@ -28509,8 +28509,8 @@
                               :mod ( t / tidur )))))
       :op2 ( k / kering-01
             :ARG0 ( s2 / sungai )
-            :time ( m2 / musim
-                  :mod ( k2 / kemarau ))))
+            :time ( e3 / entitas-tanggal
+                  :season ( k2 / kemarau ))))
 
 # ::id 1180
 # ::snt Hari pahlawan diperingati pada sepuluh November atau Tadi dia berjanji datang ke sini
@@ -28784,15 +28784,15 @@
 ( a / atau
       :op1 ( s / sumur
             :mod ( k / kering )
-            :time ( m / musim
-                  :mod ( k2 / kemarau )))
+            :time ( e / entitas-tanggal
+                  :season ( k2 / kemarau )))
       :op2 ( i / ingat-01
             :ARG1 ( h / hari
                   :wiki "Hari_Pahlawan_(Indonesia)"
                   :name ( n / nama
                         :op1 "pahlawan" ))
-            :ARG2 ( e / entitas-laju-91
-                  :ARG4 ( e2 / entitas-tanggal 
+            :ARG2 ( e2 / entitas-laju-91
+                  :ARG4 ( e3 / entitas-tanggal 
                         :month 11
                         :day 10 ))))
 
