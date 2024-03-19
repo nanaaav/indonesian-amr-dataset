@@ -22101,7 +22101,7 @@
             :destination ( k2 / kota
                   :wiki "Kota_Yogyakarta"
                   :name ( n / nama
-                        :op1"Yogyakarta" ))
+                        :op1 "Yogyakarta" ))
             :time ( h / hari
                   :mod ( i / ini )))
       :op2 ( t / terima-01
@@ -26548,7 +26548,7 @@
             :destination ( k2 / kota
                   :wiki "Kota_Yogyakarta"
                   :name ( n / nama
-                        :op1"Yogyakarta" ))
+                        :op1 "Yogyakarta" ))
             :time ( h / hari
                   :mod ( i / ini )))
       :op2 ( t / terima-01
